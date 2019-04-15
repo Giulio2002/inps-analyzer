@@ -16,6 +16,6 @@ app.get('/', function(req: any, res: any) {
 
 setInterval(() => {
     eth_reg.update();
-}, 10 * second);
+}, 5 * minute);
 
 app.listen(4200);
